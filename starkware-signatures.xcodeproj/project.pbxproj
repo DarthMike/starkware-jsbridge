@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		475B86C2243DFA4A00825A58 /* index.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 475B86C1243DFA4A00825A58 /* index.min.js */; };
+		47BCC95E243CEA7600FEC1F6 /* StarkSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BCC95D243CEA7600FEC1F6 /* StarkSigner.swift */; };
+		47CB19F8243CE9E1004D7B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CB19F7243CE9E1004D7B3D /* AppDelegate.swift */; };
+		47CB19FA243CE9E1004D7B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CB19F9243CE9E1004D7B3D /* SceneDelegate.swift */; };
+		47CB19FC243CE9E1004D7B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CB19FB243CE9E1004D7B3D /* ContentView.swift */; };
+		47CB19FE243CE9E1004D7B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CB19FD243CE9E1004D7B3D /* Assets.xcassets */; };
+		47CB1A01243CE9E1004D7B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CB1A00243CE9E1004D7B3D /* Preview Assets.xcassets */; };
+		47CB1A04243CE9E1004D7B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CB1A02243CE9E1004D7B3D /* LaunchScreen.storyboard */; };
+		47CB1A0F243CE9E1004D7B3D /* starkware_signaturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CB1A0E243CE9E1004D7B3D /* starkware_signaturesTests.swift */; };
+		56378957D8E181A09FEF4624 /* Pods_starkware_signaturesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF25F78F034E8E2001DDFCAF /* Pods_starkware_signaturesTests.framework */; };
+		C709237A78DCFA7511DF89D1 /* Pods_starkware_signatures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2727A47873227B70CE7AE00 /* Pods_starkware_signatures.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47CB1A0B243CE9E1004D7B3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47CB19EC243CE9E1004D7B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47CB19F3243CE9E1004D7B3D;
+			remoteInfo = "starkware-signatures";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		475B86C1243DFA4A00825A58 /* index.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.min.js; sourceTree = "<group>"; };
+		47BCC95D243CEA7600FEC1F6 /* StarkSigner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarkSigner.swift; sourceTree = "<group>"; };
+		47CB19F4243CE9E1004D7B3D /* starkware-signatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "starkware-signatures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CB19F7243CE9E1004D7B3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47CB19F9243CE9E1004D7B3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47CB19FB243CE9E1004D7B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47CB19FD243CE9E1004D7B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47CB1A00243CE9E1004D7B3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47CB1A03243CE9E1004D7B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47CB1A05243CE9E1004D7B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CB1A0A243CE9E1004D7B3D /* starkware-signaturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "starkware-signaturesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47CB1A0E243CE9E1004D7B3D /* starkware_signaturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starkware_signaturesTests.swift; sourceTree = "<group>"; };
+		47CB1A10243CE9E1004D7B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5610FDEE226F79AFA33BC1BC /* Pods-starkware-signatures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starkware-signatures.release.xcconfig"; path = "Target Support Files/Pods-starkware-signatures/Pods-starkware-signatures.release.xcconfig"; sourceTree = "<group>"; };
+		698ED4438695E610759ED1AB /* Pods-starkware-signatures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starkware-signatures.debug.xcconfig"; path = "Target Support Files/Pods-starkware-signatures/Pods-starkware-signatures.debug.xcconfig"; sourceTree = "<group>"; };
+		9771BE5635822D7F6E8EADD0 /* Pods-starkware-signaturesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starkware-signaturesTests.debug.xcconfig"; path = "Target Support Files/Pods-starkware-signaturesTests/Pods-starkware-signaturesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A947E75ABA523B548D5AD727 /* Pods-starkware-signaturesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-starkware-signaturesTests.release.xcconfig"; path = "Target Support Files/Pods-starkware-signaturesTests/Pods-starkware-signaturesTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF25F78F034E8E2001DDFCAF /* Pods_starkware_signaturesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_starkware_signaturesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2727A47873227B70CE7AE00 /* Pods_starkware_signatures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_starkware_signatures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47CB19F1243CE9E1004D7B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C709237A78DCFA7511DF89D1 /* Pods_starkware_signatures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CB1A07243CE9E1004D7B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56378957D8E181A09FEF4624 /* Pods_starkware_signaturesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118565A66F56F28A66349D45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				698ED4438695E610759ED1AB /* Pods-starkware-signatures.debug.xcconfig */,
+				5610FDEE226F79AFA33BC1BC /* Pods-starkware-signatures.release.xcconfig */,
+				9771BE5635822D7F6E8EADD0 /* Pods-starkware-signaturesTests.debug.xcconfig */,
+				A947E75ABA523B548D5AD727 /* Pods-starkware-signaturesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		475B86BA243DD58300825A58 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				475B86C1243DFA4A00825A58 /* index.min.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		47CB19EB243CE9E1004D7B3D = {
+			isa = PBXGroup;
+			children = (
+				47CB19F6243CE9E1004D7B3D /* starkware-signatures */,
+				47CB1A0D243CE9E1004D7B3D /* starkware-signaturesTests */,
+				47CB19F5243CE9E1004D7B3D /* Products */,
+				118565A66F56F28A66349D45 /* Pods */,
+				532721DCFD7F88C98C0F03B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47CB19F5243CE9E1004D7B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47CB19F4243CE9E1004D7B3D /* starkware-signatures.app */,
+				47CB1A0A243CE9E1004D7B3D /* starkware-signaturesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47CB19F6243CE9E1004D7B3D /* starkware-signatures */ = {
+			isa = PBXGroup;
+			children = (
+				475B86BA243DD58300825A58 /* js */,
+				47CB19F7243CE9E1004D7B3D /* AppDelegate.swift */,
+				47CB19F9243CE9E1004D7B3D /* SceneDelegate.swift */,
+				47CB19FB243CE9E1004D7B3D /* ContentView.swift */,
+				47BCC95D243CEA7600FEC1F6 /* StarkSigner.swift */,
+				47CB19FD243CE9E1004D7B3D /* Assets.xcassets */,
+				47CB1A02243CE9E1004D7B3D /* LaunchScreen.storyboard */,
+				47CB1A05243CE9E1004D7B3D /* Info.plist */,
+				47CB19FF243CE9E1004D7B3D /* Preview Content */,
+			);
+			path = "starkware-signatures";
+			sourceTree = "<group>";
+		};
+		47CB19FF243CE9E1004D7B3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				47CB1A00243CE9E1004D7B3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		47CB1A0D243CE9E1004D7B3D /* starkware-signaturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				47CB1A0E243CE9E1004D7B3D /* starkware_signaturesTests.swift */,
+				47CB1A10243CE9E1004D7B3D /* Info.plist */,
+			);
+			path = "starkware-signaturesTests";
+			sourceTree = "<group>";
+		};
+		532721DCFD7F88C98C0F03B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2727A47873227B70CE7AE00 /* Pods_starkware_signatures.framework */,
+				BF25F78F034E8E2001DDFCAF /* Pods_starkware_signaturesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47CB19F3243CE9E1004D7B3D /* starkware-signatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CB1A13243CE9E1004D7B3D /* Build configuration list for PBXNativeTarget "starkware-signatures" */;
+			buildPhases = (
+				88576A39DB5A514403BA110F /* [CP] Check Pods Manifest.lock */,
+				47CB19F0243CE9E1004D7B3D /* Sources */,
+				47CB19F1243CE9E1004D7B3D /* Frameworks */,
+				47CB19F2243CE9E1004D7B3D /* Resources */,
+				8E37FD1275D83982064705EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "starkware-signatures";
+			productName = "starkware-signatures";
+			productReference = 47CB19F4243CE9E1004D7B3D /* starkware-signatures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47CB1A09243CE9E1004D7B3D /* starkware-signaturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47CB1A16243CE9E1004D7B3D /* Build configuration list for PBXNativeTarget "starkware-signaturesTests" */;
+			buildPhases = (
+				B49B6999FA58C94DAE80335D /* [CP] Check Pods Manifest.lock */,
+				47CB1A06243CE9E1004D7B3D /* Sources */,
+				47CB1A07243CE9E1004D7B3D /* Frameworks */,
+				47CB1A08243CE9E1004D7B3D /* Resources */,
+				006CAA1EA8EB7E6DBA683980 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47CB1A0C243CE9E1004D7B3D /* PBXTargetDependency */,
+			);
+			name = "starkware-signaturesTests";
+			productName = "starkware-signaturesTests";
+			productReference = 47CB1A0A243CE9E1004D7B3D /* starkware-signaturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47CB19EC243CE9E1004D7B3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Argent;
+				TargetAttributes = {
+					47CB19F3243CE9E1004D7B3D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					47CB1A09243CE9E1004D7B3D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 47CB19F3243CE9E1004D7B3D;
+					};
+				};
+			};
+			buildConfigurationList = 47CB19EF243CE9E1004D7B3D /* Build configuration list for PBXProject "starkware-signatures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47CB19EB243CE9E1004D7B3D;
+			productRefGroup = 47CB19F5243CE9E1004D7B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47CB19F3243CE9E1004D7B3D /* starkware-signatures */,
+				47CB1A09243CE9E1004D7B3D /* starkware-signaturesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47CB19F2243CE9E1004D7B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CB1A04243CE9E1004D7B3D /* LaunchScreen.storyboard in Resources */,
+				475B86C2243DFA4A00825A58 /* index.min.js in Resources */,
+				47CB1A01243CE9E1004D7B3D /* Preview Assets.xcassets in Resources */,
+				47CB19FE243CE9E1004D7B3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CB1A08243CE9E1004D7B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		006CAA1EA8EB7E6DBA683980 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-starkware-signaturesTests/Pods-starkware-signaturesTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-starkware-signaturesTests/Pods-starkware-signaturesTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-starkware-signaturesTests/Pods-starkware-signaturesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88576A39DB5A514403BA110F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-starkware-signatures-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E37FD1275D83982064705EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-starkware-signatures/Pods-starkware-signatures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-starkware-signatures/Pods-starkware-signatures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-starkware-signatures/Pods-starkware-signatures-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49B6999FA58C94DAE80335D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-starkware-signaturesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47CB19F0243CE9E1004D7B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CB19F8243CE9E1004D7B3D /* AppDelegate.swift in Sources */,
+				47BCC95E243CEA7600FEC1F6 /* StarkSigner.swift in Sources */,
+				47CB19FA243CE9E1004D7B3D /* SceneDelegate.swift in Sources */,
+				47CB19FC243CE9E1004D7B3D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47CB1A06243CE9E1004D7B3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47CB1A0F243CE9E1004D7B3D /* starkware_signaturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47CB1A0C243CE9E1004D7B3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47CB19F3243CE9E1004D7B3D /* starkware-signatures */;
+			targetProxy = 47CB1A0B243CE9E1004D7B3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47CB1A02243CE9E1004D7B3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47CB1A03243CE9E1004D7B3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47CB1A11243CE9E1004D7B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47CB1A12243CE9E1004D7B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47CB1A14243CE9E1004D7B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698ED4438695E610759ED1AB /* Pods-starkware-signatures.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"starkware-signatures/Preview Content\"";
+				DEVELOPMENT_TEAM = WR9U66KRG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "starkware-signatures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "im.argent.starkware-signatures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47CB1A15243CE9E1004D7B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5610FDEE226F79AFA33BC1BC /* Pods-starkware-signatures.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"starkware-signatures/Preview Content\"";
+				DEVELOPMENT_TEAM = WR9U66KRG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "starkware-signatures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "im.argent.starkware-signatures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47CB1A17243CE9E1004D7B3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9771BE5635822D7F6E8EADD0 /* Pods-starkware-signaturesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR9U66KRG9;
+				INFOPLIST_FILE = "starkware-signaturesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "im.argent.starkware-signaturesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starkware-signatures.app/starkware-signatures";
+			};
+			name = Debug;
+		};
+		47CB1A18243CE9E1004D7B3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A947E75ABA523B548D5AD727 /* Pods-starkware-signaturesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WR9U66KRG9;
+				INFOPLIST_FILE = "starkware-signaturesTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "im.argent.starkware-signaturesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/starkware-signatures.app/starkware-signatures";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47CB19EF243CE9E1004D7B3D /* Build configuration list for PBXProject "starkware-signatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CB1A11243CE9E1004D7B3D /* Debug */,
+				47CB1A12243CE9E1004D7B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CB1A13243CE9E1004D7B3D /* Build configuration list for PBXNativeTarget "starkware-signatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CB1A14243CE9E1004D7B3D /* Debug */,
+				47CB1A15243CE9E1004D7B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47CB1A16243CE9E1004D7B3D /* Build configuration list for PBXNativeTarget "starkware-signaturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CB1A17243CE9E1004D7B3D /* Debug */,
+				47CB1A18243CE9E1004D7B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47CB19EC243CE9E1004D7B3D /* Project object */;
+}

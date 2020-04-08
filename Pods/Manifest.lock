@@ -1,0 +1,28 @@
+PODS:
+  - BigInt (5.0.0)
+  - Nimble (8.0.7)
+  - Quick (2.2.0)
+  - web3.swift (0.3.4):
+    - BigInt (~> 5.0.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - web3.swift
+
+SPEC REPOS:
+  trunk:
+    - BigInt
+    - Nimble
+    - Quick
+    - web3.swift
+
+SPEC CHECKSUMS:
+  BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
+  Nimble: a73af6ecd4c9106f434f3d55fc54570be3739e0b
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  web3.swift: 107bfa1ccc14b2c2aa03035f6a395e32682a4429
+
+PODFILE CHECKSUM: 37ab2d2dfc8681632ebdc0dbd8f3953c9c575cb1
+
+COCOAPODS: 1.8.4
