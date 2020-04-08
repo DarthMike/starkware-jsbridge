@@ -6,8 +6,6 @@ https://github.com/pedrouid/starkware-crypto
 Then either build locally and build the bundled file, or install through npm:
 `npm install -g starkware-crypto`
 
-Go to the intalled library directory, (default `/usr/local/lib/node_modules/starkware-crypto`)
+Go to the installed library directory, (default `/usr/local/lib/node_modules/starkware-crypto`), then grab the single bundled JS file under `dist/umd`, so it's easier to inject into a `JSContext`
 
-Then grab the single bundled JS file under `dist/umd`, so it's easier to inject into a `JSContext`
-
-This is the file 'index.min.js' here copied directly in project.
+The file 'index.min.js' is here copied directly in project.
