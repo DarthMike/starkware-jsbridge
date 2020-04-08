@@ -18,7 +18,7 @@ class Tests: QuickSpec {
     override func spec() {
         describe("starkware integration") {
             let signer = StarkSigner()
-            let key = "02dccce1da22003777062ee0870e9881b460a8b7eca276870f57c601f182136c"
+            let key = "0x2dccce1da22003777062ee0870e9881b460a8b7eca276870f57c601f182136c"
             
             it("repl works") {
                 let script = """
@@ -30,7 +30,7 @@ class Tests: QuickSpec {
             }
             
             it("signs message of length 61") {
-                let signed = signer.sign(message: "c465dd6b1bbffdb05442eb17f5ca38ad1aa78a6f56bf4415bdee219114a47", using: key)
+                let signed = signer.sign(message: "c465dd6b1bbffdb05442eb17f5ca38ad1aa78a6f56bf4415bdee219114a47", using: key.web3.noHexPrefix)
                 expect(signed.r) == "5f496f6f210b5810b2711c74c15c05244dad43d18ecbbdbe6ed55584bc3b0a2"
                 expect(signed.s) == "4e8657b153787f741a67c0666bad6426c3741b478c8eaa3155196fc571416f3"
             }
